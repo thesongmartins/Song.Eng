@@ -209,7 +209,7 @@ export default function ProjectsPage() {
               <span className="font-medium">Back to Home</span>
             </Link>
             <h1 className="text-xl font-bold">
-              <span className="text-primary">My</span> Projects
+              <span className="text-primary">All</span> Projects
             </h1>
             <div className="w-[100px]"></div> {/* Spacer for centering */}
           </div>

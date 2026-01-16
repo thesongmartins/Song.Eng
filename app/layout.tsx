@@ -4,12 +4,13 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Mayowa Oluwanimotele | Web Developer Portfolio",
+  title: "Jehoshaphat Martins| Mobile & Web Engineer",
   description:
-    "Portfolio of Mayowa Oluwanimotele – a Web Developer specializing in Next.js, React, and modern web solutions.",
+    "Portfolio of Jehoshaphat Martins – a Mobile & Web Engineer specializing in Next.js, React.js, and modern web solutions.",
   keywords: [
-    "Mayowa Oluwanimotele",
+    "Jehoshaphat Martins",
     "Web Developer",
+    "Frontend Engineer",
     "Frontend Developer",
     "Next.js",
     "React",
@@ -31,25 +32,25 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "Mayowa Oluwanimotele",
-      url: "https://github.com/MayDan12",
+      name: "Jehoshaphat Martins",
+      url: "https://github.com/thesongmartins",
     },
   ],
   openGraph: {
-    title: "Mayowa Oluwanimotele | Web Developer Portfolio",
+    title: "Jehoshaphat Martins | Mobile & Web Engineer",
     description:
       "Showcasing projects, skills, and experience in building scalable web applications using Next.js and React.",
-    url: "https://mayowa-oluwanimotele.vercel.app/",
-    siteName: "Mayowa Oluwanimotele Portfolio",
+    url: "https://songmartins.vercel.app/",
+    siteName: "Jehoshaphat Martins Portfolio",
     images: [
       {
-        url: "/og-graph.jpg", // replace with your image
+        url: "/song.jpg", // replace with your image
         width: 1200,
         height: 630,
         alt: "Portfolio Preview",
       },
       {
-        url: "/og-graph.jpg",
+        url: "/song.jpg",
         width: 600,
         height: 315,
         alt: "Portfolio Preview Small",
@@ -60,18 +61,18 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mayowa Oluwanimotele | Web Developer Portfolio",
+    title: "Jehoshaphat Martins | Mobile & Web Engineer",
     description:
       "Discover my projects and expertise in Next.js, React, and modern web development.",
-    images: ["/og-graph.jpg"],
-    creator: "@Mayowadan12", // optional
+    images: ["/song.jpg"],
+    creator: "@thesongmartins", // optional
   },
   robots: {
     index: true,
     follow: true,
   },
   alternates: {
-    canonical: "https://mayowa-oluwanimotele.vercel.app/",
+    canonical: "https://songmartins.vercel.app/",
   },
   category: "portfolio",
 };
