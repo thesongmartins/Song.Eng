@@ -104,9 +104,9 @@ export function VelocityScrollLogos({
                 const baseClass = "max-h-12 w-auto";
                 if (src === "/image.png") {
                   // Ubuntu Portal - ensure visibility in both modes
-                  return `${baseClass} brightness-0 contrast-200 dark:brightness-100 dark:invert-0`;
+                  return `${baseClass} brightness-50 contrast-150 dark:brightness-100 dark:invert-0`;
                 } else if (src === "/parcellogo.png") {
-                  // Parcel - ensure visibility in both modes
+                  // Parcel - needs no filters in dark mode
                   return `${baseClass} dark:brightness-100 dark:invert-0`;
                 } else {
                   // Default styling for other logos

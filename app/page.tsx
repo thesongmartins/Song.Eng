@@ -258,7 +258,10 @@ export default function Portfolio() {
           </section>
 
           {/* About section */}
-          <section className="py-10  bg-muted/30" id="about">
+          <section
+            className="py-12 md:py-16 lg:py-20 bg-muted/30 px-4 sm:px-6 lg:px-8"
+            id="about"
+          >
             <div className="container">
               <SectionHeading
                 title="About Me"
@@ -508,7 +511,10 @@ export default function Portfolio() {
           </section>
 
           {/* Contact section */}
-          <section className="py-20 md:pb-10 md:pt-5" id="contact">
+          <section
+            className="py-16 md:py-20 lg:pb-10 lg:pt-5 px-4 sm:px-6 lg:px-8"
+            id="contact"
+          >
             <div className="container ">
               <SectionHeading
                 title="Get In Touch"
