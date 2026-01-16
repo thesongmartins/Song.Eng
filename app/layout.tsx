@@ -4,6 +4,7 @@ import { Roboto } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://songmartins.vercel.app/"),
   title: "Jehoshaphat Martins| Mobile & Web Engineer",
   description:
     "Portfolio of Jehoshaphat Martins – a Mobile & Web Engineer specializing in Next.js, React.js, and modern web solutions.",
