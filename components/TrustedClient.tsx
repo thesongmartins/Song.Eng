@@ -7,6 +7,18 @@ const logos = [
     width: 120,
     height: 40,
   },
+  {
+    src: "/managelogo.svg",
+    alt: "Manage",
+    width: 120,
+    height: 40,
+  },
+  {
+    src: "/parcellogo.png",
+    alt: "Parcel App",
+    width: 120,
+    height: 40,
+  },
 
   {
     src: "/omnifood-logo.png",

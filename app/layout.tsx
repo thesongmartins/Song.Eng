@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     siteName: "Jehoshaphat Martins Portfolio",
     images: [
       {
-        url: "/song.jpg", // replace with your image
+        url: "./song.jpg", // replace with your image
         width: 1200,
         height: 630,
         alt: "Portfolio Preview",

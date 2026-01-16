@@ -431,8 +431,8 @@ export default function Portfolio() {
 
               <div className="mt-16 grid gap-12">
                 <ProjectCard
-                  title="RetailGo"
-                  description="Your favorite shopping store"
+                  title="RetailGo Platform"
+                  description="Nigeria's pioneering self-checkout platform that lets customers scan products, pay instantly, and walk out — no queues, no waiting."
                   tags={["React.js", "Tailwind CSS"]}
                   imageUrl="/retailgo.png"
                   reverse={true}
@@ -440,7 +440,7 @@ export default function Portfolio() {
                   sourcecode="/"
                 />
                 <ProjectCard
-                  title="E-Commerce Platform"
+                  title="Ubuntu Portal - Trade Platform"
                   description="A full-featured online store with animations and micro-interactions that enhance the shopping experience."
                   tags={[
                     "Next.js",
@@ -459,9 +459,24 @@ export default function Portfolio() {
                   title="Manage - Landing Page"
                   description="Manage makes it simple for software teams to plan day-to-day tasks while keeeping the larger team goals in view."
                   tags={["Next.js", "Tailwind", "Framer Motion", "SupaBase"]}
-                  imageUrl="/homedirect.png"
+                  imageUrl="/managelandingpage.png"
                   reverse={true}
-                  link="https://homedirect.vercel.app/"
+                  link="https://manage-pagee.vercel.app/"
+                  sourcecode="https://github.com/thesongmartins/Manage-Landing-Page"
+                />
+                <ProjectCard
+                  title="Ubuntu Logistics"
+                  description="We help organizations ship the right products and bring our own innovations to market."
+                  tags={[
+                    "Next.js",
+                    "Tailwind",
+                    "Framer Motion",
+                    "Django",
+                    "Python",
+                  ]}
+                  imageUrl="/ubuntulogistics.png"
+                  reverse={false}
+                  link="https://ubuntuport.com"
                   sourcecode="/"
                 />
                 <ProjectCard
@@ -470,8 +485,8 @@ export default function Portfolio() {
                   tags={["Html", "CSS", "JavaScript"]}
                   imageUrl="/OmniFood.png"
                   reverse={true}
-                  link="https://maydan12.github.io/Omni-Food/"
-                  sourcecode="/https://github.com/thesongmartins/OmniFood"
+                  link="https://omni-food-phi.vercel.app/"
+                  sourcecode="https://github.com/thesongmartins/OmniFood"
                 />
               </div>
 
