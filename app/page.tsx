@@ -275,7 +275,7 @@ export default function Portfolio() {
                   <div className="relative">
                     <div className="aspect-square rounded-lg overflow-hidden bg-muted">
                       <Image
-                        src="/song.jpg"
+                        src="/song.JPG"
                         alt="Engineer portrait"
                         priority
                         width={600}
