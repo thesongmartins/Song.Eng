@@ -105,7 +105,7 @@ export function VelocityScrollLogos({
                   alt={logo.alt}
                   width={logo.width}
                   height={logo.height}
-                  className="max-h-12 brightness-0 invert contrast-100 w-auto"
+                  className="max-h-12 dark:brightness-0 dark:invert dark:contrast-100 w-auto"
                 />
               </div>
             ))}
