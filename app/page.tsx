@@ -229,10 +229,10 @@ export default function Portfolio() {
                   I craft high-converting, clean and responsive websites &
                   mobile apps for businesses, brands & individuals
                 </p>
-                <div className="flex flex-wrap gap-4">
+                <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                   <Button
                     size="lg"
-                    className="interactive group"
+                    className="interactive group w-full sm:w-auto text-base px-6 py-3"
                     onClick={() => router.push("/projects")}
                   >
                     View My Work
@@ -241,7 +241,7 @@ export default function Portfolio() {
                   <Button
                     size="lg"
                     variant="outline"
-                    className="interactive"
+                    className="interactive w-full sm:w-auto text-base px-6 py-3"
                     onClick={() => router.push("#contact")}
                   >
                     Contact Me
@@ -515,19 +515,19 @@ export default function Portfolio() {
             className="py-16 md:py-20 lg:pb-10 lg:pt-5 px-4 sm:px-6 lg:px-8"
             id="contact"
           >
-            <div className="container ">
+            <div className="lg:container">
               <SectionHeading
                 title="Get In Touch"
                 subtitle="Let's work together"
               />
 
-              <div className="mt-16 grid md:grid-cols-2 gap-12">
+              <div className="mt-12 lg:mt-16 grid lg:grid-cols-2 gap-8 lg:gap-12">
                 <motion.div
                   initial={{ opacity: 0, y: 50 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8 }}
                   viewport={{ once: true }}
-                  className="bg-muted/30 p-8 rounded-lg"
+                  className="bg-muted/30 p-6 sm:p-8 rounded-lg"
                 >
                   <h3 className="text-2xl font-bold mb-4">
                     Contact Information
@@ -577,14 +577,14 @@ export default function Portfolio() {
                   viewport={{ once: true }}
                 >
                   <form className="space-y-6" onSubmit={handleSubmit}>
-                    <div className="grid md:grid-cols-2 gap-6">
+                    <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
                       <div className="space-y-2">
                         <label htmlFor="name" className="text-sm font-medium">
                           Name
                         </label>
                         <input
                           id="name"
-                          className="w-full px-4 py-2 bg-background border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                          className="w-full px-4 py-3 bg-background border rounded-md focus:outline-none focus:ring-2 focus:ring-primary text-base"
                           placeholder="Your name"
                           value={formData.name}
                           onChange={handleChange}
@@ -598,7 +598,7 @@ export default function Portfolio() {
                         <input
                           id="email"
                           type="email"
-                          className="w-full px-4 py-2 bg-background border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                          className="w-full px-4 py-3 bg-background border rounded-md focus:outline-none focus:ring-2 focus:ring-primary text-base"
                           placeholder="Your email"
                           value={formData.email}
                           onChange={handleChange}
@@ -613,7 +613,7 @@ export default function Portfolio() {
                       </label>
                       <input
                         id="subject"
-                        className="w-full px-4 py-2 bg-background border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
+                        className="w-full px-4 py-3 bg-background border rounded-md focus:outline-none focus:ring-2 focus:ring-primary text-base"
                         placeholder="Subject"
                         value={formData.subject}
                         onChange={handleChange}
@@ -628,7 +628,7 @@ export default function Portfolio() {
                       <textarea
                         id="message"
                         rows={5}
-                        className="w-full px-4 py-2 bg-background border rounded-md focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+                        className="w-full px-4 py-3 bg-background border rounded-md focus:outline-none focus:ring-2 focus:ring-primary resize-none text-base"
                         placeholder="Your message"
                         value={formData.message}
                         onChange={handleChange}
