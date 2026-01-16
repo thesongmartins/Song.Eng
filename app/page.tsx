@@ -432,7 +432,7 @@ export default function Portfolio() {
                 subtitle="Recent Works"
               />
 
-              <div className="mt-16 grid gap-12">
+              <div className="mt-10 grid gap-12">
                 <ProjectCard
                   title="RetailGo Platform"
                   description="Nigeria's pioneering self-checkout platform that lets customers scan products, pay instantly, and walk out — no queues, no waiting."
