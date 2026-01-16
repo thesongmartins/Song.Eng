@@ -98,17 +98,34 @@ export function VelocityScrollLogos({
             className="inline-flex items-center"
             ref={i === 0 ? logosRef : null}
           >
-            {logos.map((logo, index) => (
-              <div key={index} className="mx-8">
-                <Image
-                  src={logo.src || "/placeholder.svg"}
-                  alt={logo.alt}
-                  width={logo.width}
-                  height={logo.height}
-                  className="max-h-12 dark:brightness-0 dark:invert dark:contrast-100 w-auto"
-                />
-              </div>
-            ))}
+            {logos.map((logo, index) => {
+              // Apply different styling based on logo for theme compatibility
+              const getLogoClass = (src: string) => {
+                const baseClass = "max-h-12 w-auto";
+                if (src === "/image.png") {
+                  // Ubuntu Portal - ensure visibility in both modes
+                  return `${baseClass} brightness-0 contrast-200 dark:brightness-100 dark:invert-0`;
+                } else if (src === "/parcellogo.png") {
+                  // Parcel - ensure visibility in both modes
+                  return `${baseClass} dark:brightness-100 dark:invert-0`;
+                } else {
+                  // Default styling for other logos
+                  return `${baseClass} dark:brightness-0 dark:invert dark:contrast-100`;
+                }
+              };
+
+              return (
+                <div key={index} className="mx-8">
+                  <Image
+                    src={logo.src || "/placeholder.svg"}
+                    alt={logo.alt}
+                    width={logo.width}
+                    height={logo.height}
+                    className={getLogoClass(logo.src)}
+                  />
+                </div>
+              );
+            })}
           </div>
         ))}
       </motion.div>
