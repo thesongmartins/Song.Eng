@@ -62,7 +62,7 @@ export default function Portfolio() {
     const handleMouseOut = () => setCursorHovered(false);
 
     const interactiveElements = document.querySelectorAll(
-      "a, button, .interactive"
+      "a, button, .interactive",
     );
 
     interactiveElements.forEach((el) => {
@@ -93,7 +93,7 @@ export default function Portfolio() {
   if (!mounted) return null;
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { id, value } = e.target;
     setFormData((prev) => ({
@@ -151,7 +151,7 @@ export default function Portfolio() {
           className={cn(
             "fixed top-0 left-0 w-8 h-8 rounded-full pointer-events-none z-50 mix-blend-difference",
             "border-2 border-white transition-all duration-100 ease-out",
-            cursorHovered ? "w-16 h-16 bg-white/20" : "bg-transparent"
+            cursorHovered ? "w-16 h-16 bg-white/20" : "bg-transparent",
           )}
           style={{
             transform: `translate(${cursorPosition.x}px, ${cursorPosition.y}px)`,
@@ -221,7 +221,7 @@ export default function Portfolio() {
                     Frontend Engineer & Web3 Engineer
                   </span>
                 </div>
-                <h1 className="text-4xl md:text-7xl font-bold mb-4">
+                <h1 className="text-4xl md:[8rem] lg:text-7xl font-bold mb-4">
                   Creating <span className="text-primary">digital</span>{" "}
                   experiences that <AnimatedText />
                 </h1>
@@ -268,7 +268,7 @@ export default function Portfolio() {
                 subtitle="Background and Skills"
               />
 
-              <div className="grid md:grid-cols-2 gap-12 items-center mt-14">
+              <div className="grid md:grid-cols-1 lg:grid-cols-2 gap-12 items-center mt-14">
                 <motion.div
                   initial={{ opacity: 0, x: -50 }}
                   whileInView={{ opacity: 1, x: 0 }}
@@ -761,7 +761,7 @@ function NavLinks({ mobile = false }: { mobile?: boolean }) {
           href={link.href}
           className={cn(
             "font-medium transition-colors hover:text-primary interactive",
-            mobile ? "text-lg py-2" : "text-sm"
+            mobile ? "text-lg py-2" : "text-sm",
           )}
         >
           {link.label}
@@ -847,7 +847,7 @@ function ProjectCard({
       viewport={{ once: true }}
       className={cn(
         "grid md:grid-cols-2 gap-8 items-center",
-        reverse && "md:grid-flow-dense"
+        reverse && "md:grid-flow-dense",
       )}
     >
       <div className={cn(reverse && "md:col-start-2")}>
@@ -879,7 +879,7 @@ function ProjectCard({
       <div
         className={cn(
           "group relative overflow-hidden rounded-lg",
-          reverse && "md:col-start-1"
+          reverse && "md:col-start-1",
         )}
       >
         <div className="absolute inset-0 bg-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center z-10">
