@@ -72,6 +72,17 @@ const projectsData = [
   },
   {
     id: 3,
+    title: "KanVia",
+    description: "A fully-functional Kanban-style task management web application built with React on TypeScript. This project was developed as part of a Frontend Mentor Guru-level challenge and features responsive design, task boards, JSON data integration, and light/dark theme toggling.",
+    image: "/kanvia.png",
+    tags: ["React", "Typescript", "JSON data", "Tailwind CSS"],
+    category: "Web Development",
+    demoUrl: "https://kan-via.vercel.app/",
+    githubUrl: "https://github.com/thesongmartins/KanVia",
+    featured: true,
+  },
+  {
+    id: 4,
     title: "Parcel App",
     description:
       "ParcelApp is a modern, user-friendly delivery service platform designed for seamless package sending, tracking, and management. Whether you're a customer, rider, or business, ParcelApp brings everything you need into one unified, fast, and mobile-first experience.",
@@ -83,7 +94,7 @@ const projectsData = [
     featured: true,
   },
   {
-    id: 4,
+    id: 5,
     title: "Expense Tracker",
     description:
       "The Expense Tracker is a simple and intuitive web application that helps users track their income and expenses. It provides insightful financial data, including income, expenses, and balance calculations, using local storage for data persistence.",
@@ -95,7 +106,7 @@ const projectsData = [
     featured: true,
   },
   {
-    id: 5,
+    id: 6,
     title: "OmniFood",
     description:
       "We are a technology company first, but with a major focus on consumer well-being through a healthy diet.",
@@ -107,7 +118,7 @@ const projectsData = [
     featured: false,
   },
   {
-    id: 6,
+    id: 7,
     title: "Jenom Portfolio",
     description:
       "This a portfolio project for an outstanding designer, based in Jos, Nigeria. The project showcases some the prominent and eye catching designs and styles of the designer which will captivate the heart of his clients and the general public.",
@@ -119,7 +130,7 @@ const projectsData = [
     featured: false,
   },
   {
-    id: 7,
+    id: 8,
     title: "Re-Flect",
     description:
       "Re-Flect is your all-in-one journaling platform, designed to foster mindfulness and personal growth. It is a next-generation journaling application designed to transform the way you interact with your thoughts and emotions.",
@@ -128,17 +139,6 @@ const projectsData = [
     category: "Web Development",
     demoUrl: "https://re-flect.vercel.app/dashboard",
     githubUrl: "https://github.com/thesongmartins/Re-Flect",
-    featured: false,
-  },
-  {
-    id: 8,
-    title: "Ubuntu Portal Logistics",
-    description: "Logistics website.",
-    image: "/Logistic.png",
-    tags: ["React", "OpenWeather API", "Mapbox"],
-    category: "Web Development",
-    demoUrl: "#",
-    githubUrl: "#",
     featured: false,
   },
 ];
