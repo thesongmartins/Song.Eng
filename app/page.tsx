@@ -309,7 +309,7 @@ export default function Portfolio() {
                     </span>{" "}
                     Driven by curiosity
                   </h3>
-                  <p className="text-muted-foreground mb-6">
+                  <p className="text-muted-foreground text-[1rem] mb-6">
                     and a love for building useful things, focused on creating
                     real-world web and mobile applications. I&apos;ve
                     contributed to meaningful projects like Ubuntu Portal, an
@@ -433,18 +433,9 @@ export default function Portfolio() {
               />
 
               <div className="mt-10 grid gap-12">
-                <ProjectCard
-                  title="RetailGo Platform"
-                  description="Nigeria's pioneering self-checkout platform that lets customers scan products, pay instantly, and walk out — no queues, no waiting."
-                  tags={["React.js", "Tailwind CSS"]}
-                  imageUrl="/retailgo.png"
-                  reverse={true}
-                  link="https://retailgong.vercel.app/"
-                  sourcecode="/"
-                />
-                <ProjectCard
-                  title="Ubuntu Portal - Trade Platform"
-                  description="A full-featured online store with animations and micro-interactions that enhance the shopping experience."
+              <ProjectCard
+                  title="Ubuntu Portal - Connecting sellers with buyers across Africa"
+                  description="The premier B2B market place where sellers showcase quality products and buyers discover trusted partners."
                   tags={[
                     "Next.js",
                     "Framer Motion",
@@ -452,11 +443,22 @@ export default function Portfolio() {
                     "Django",
                     "Python",
                   ]}
-                  imageUrl="/UbuntuPortal.png"
-                  reverse={false}
-                  link="https://ubuntuportal.vercel.app/"
+                  imageUrl="/ubuntutrade.png"
+                  reverse={true}
+                  link="www.ubuntuportal.net/"
                   sourcecode="/"
                 />
+
+                <ProjectCard
+                  title="RetailGo Platform"
+                  description="Nigeria's pioneering self-checkout platform that lets customers scan products, pay instantly, and walk out — no queues, no waiting."
+                  tags={["React.js", "Tailwind CSS"]}
+                  imageUrl="/retailgo.png"
+                  reverse={false}
+                  link="https://retailgong.vercel.app/"
+                  sourcecode="/"
+                />
+                
 
                 <ProjectCard
                   title="Manage - Landing Page"
@@ -468,8 +470,8 @@ export default function Portfolio() {
                   sourcecode="https://github.com/thesongmartins/Manage-Landing-Page"
                 />
                 <ProjectCard
-                  title="Ubuntu Logistics"
-                  description="We help organizations ship the right products and bring our own innovations to market."
+                  title="Ubuntu Logistics - Leading African Logistics Solutions"
+                  description="Your trusted African logistics partner Global experts in container shipping, warehousing and supply chain management, backed by our proven technology and African market expertise."
                   tags={[
                     "Next.js",
                     "Tailwind",

@@ -14,9 +14,9 @@ import { ThemeProvider } from "@/components/theme-provider";
 const projectsData = [
   {
     id: 0,
-    title: "Ubuntu Logistics",
+    title: "Ubuntu Logistics - Leading African Logistics Solutions",
     description:
-      "We help organizations ship the right products and bring our own innovations to market.t.",
+      " Your trusted African logistics partner Global experts in container shipping, warehousing and supply chain management, backed by our proven technology and African market expertise.",
     image: "/ubuntulogistics.png",
     tags: [
       "Next.js",
@@ -52,10 +52,10 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Ubuntu Portal - Trade Platform",
+    title: "Ubuntu Portal - Connecting sellers with buyers across Africa",
     description:
-      "A full-featured online store with animations and micro-interactions that enhance the shopping experience.",
-    image: "/UbuntuPortal.png",
+      "The premier B2B market place where sellers showcase quality products and buyers discover trusted partners.",
+    image: "/ubuntutrade.png",
     tags: [
       "Next.js",
       "Zustand",
