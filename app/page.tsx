@@ -445,7 +445,7 @@ export default function Portfolio() {
                   ]}
                   imageUrl="/ubuntutrade.png"
                   reverse={true}
-                  link="www.ubuntuportal.net/"
+                  link="https://www.ubuntuportal.net/"
                   sourcecode="/"
                 />
 

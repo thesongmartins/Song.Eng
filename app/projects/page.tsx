@@ -66,7 +66,7 @@ const projectsData = [
       "Python",
     ],
     category: "Web Development",
-    demoUrl: "https://ubuntuportal.vercel.app/",
+    demoUrl: "https://www.ubuntuportal.net/",
     githubUrl: "#",
     featured: true,
   },
