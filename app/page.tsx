@@ -461,13 +461,13 @@ export default function Portfolio() {
                 
 
                 <ProjectCard
-                  title="Manage - Landing Page"
-                  description="Manage makes it simple for software teams to plan day-to-day tasks while keeeping the larger team goals in view."
-                  tags={["Next.js", "Tailwind", "Framer Motion", "SupaBase"]}
-                  imageUrl="/managelandingpage.png"
+                  title="KanVia"
+                  description="A fully-functional Kanban-style task management web application built with React on TypeScript. This project was developed as part of a Frontend Mentor Guru-level challenge and features responsive design, task boards, JSON data integration, and light/dark theme toggling."
+                  tags={["React", "Typescript", "JSON data", "Tailwind CSS"]}
+                  imageUrl="/kanvia.png"
                   reverse={true}
-                  link="https://manage-pagee.vercel.app/"
-                  sourcecode="https://github.com/thesongmartins/Manage-Landing-Page"
+                  link="https://kan-via.vercel.app/"
+                  sourcecode="https://github.com/thesongmartins/KanVia"
                 />
                 <ProjectCard
                   title="Ubuntu Logistics - Leading African Logistics Solutions"
